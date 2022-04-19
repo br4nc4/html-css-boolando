@@ -43,11 +43,13 @@ img{
 }
 
 .pref-product{
-    font-size: 37px;
+    font-size: 30px;
     position: absolute;
     top: 10px;
     right: 0;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .pref-dimension{
@@ -55,3 +57,4 @@ img{
     height: 50px;
     background: white;
 }
+
