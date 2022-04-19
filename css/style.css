@@ -45,6 +45,15 @@ header a{
     height: 406px;
 }
 
+.clothes-product-hover{
+    width: 284px;
+    height: 406px;
+}
+
+.clothes-product-hover{
+    display: none;
+}
+
 .container {
     max-width: 900px;
     width: 100%;
@@ -56,6 +65,7 @@ header a{
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
+    padding-top: 30px;
 }
 
 .col-products{
@@ -126,4 +136,5 @@ header a{
     font-size: 11px;
     padding: .3rem .4rem;
 }
+
 
