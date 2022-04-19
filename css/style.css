@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+img{
+    width: 284px;
+    height: 406px;
+}
+
+.container {
+    max-width: 900px;
+    width: 100%;
+    padding: 1rem 0.5rem;
+    margin: 0 auto;
+    min-height: 1000px;
+}
+
+.row-products{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.col-products{
+    flex-basis: calc((100% - 2rem) / 3);
+    padding-bottom: 1rem;
+}
