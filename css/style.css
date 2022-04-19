@@ -14,12 +14,30 @@ header a{
     color: white;
 }
 
-.d-flex{
+.nav-logo{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu{
+    list-style-type: none;
+    display: inline-block;
+}
+
+.link-menu{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    font-size: 15px;
 }
 
 .main-logo{
     width: 115px;
+}
+
+.login{
+    color: white;
 }
 
 .clothes-product{
@@ -54,7 +72,7 @@ header a{
     color: red;
 }
 
-.price-discount{
+.price-discount-product{
     text-decoration: line-through;
 }
 
