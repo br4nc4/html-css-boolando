@@ -30,7 +30,7 @@ img{
     position: relative;
 }
 
-.price-product, .price-discount{
+.price-product, .price-discount-product{
     display: inline-block;
 }
 
@@ -58,17 +58,34 @@ img{
     background: white;
 }
 
+.detail-prc-dsc{
+    display: flex;
+    justify-content: space-around;
+    gap: .2rem;
+    position: absolute;
+    bottom: 110px;
+    left: 0;
+}
+
 .symb-discount{
     background-color: red;
     color: white;
-    position: absolute;
-    bottom: 100px;
-    left: 0;
     font-weight: bold;
     font-size: 11px;
     align-items: center;
     justify-content: center;
     display: flex;
-    padding: .3rem;
+    padding: .3rem .4rem;
+}
+
+.green-description-product{
+    background: green;
+    color: white;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 11px;
+    padding: .3rem .4rem;
 }
 
