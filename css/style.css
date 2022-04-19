@@ -47,10 +47,18 @@ header a{
 
 .clothes-product-hover{
     width: 284px;
-    height: 406px;
+    height: 409px;
 }
 
 .clothes-product-hover{
+    display: none;
+}
+
+.col-products:hover .clothes-product-hover{
+    display: block;
+}
+
+.col-products:hover .clothes-product{
     display: none;
 }
 
