@@ -58,3 +58,17 @@ img{
     background: white;
 }
 
+.symb-discount{
+    background-color: red;
+    color: white;
+    position: absolute;
+    bottom: 100px;
+    left: 0;
+    font-weight: bold;
+    font-size: 11px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: .3rem;
+}
+
