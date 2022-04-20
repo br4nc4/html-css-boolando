@@ -8,6 +8,7 @@
 header{
     width: 100%;
     background: #FF6900;
+    position:fixed;
 }
 
 header a{
@@ -73,7 +74,7 @@ header a{
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
-    padding-top: 30px;
+    padding-top: 90px;
 }
 
 .col-products{
